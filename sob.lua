@@ -110,7 +110,7 @@ task.spawn(function()
     end
 end)
 
-task.delay(2, function()
+task.delay(4, function()
     ServerHop()
 end)
 
