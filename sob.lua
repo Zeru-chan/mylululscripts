@@ -27,7 +27,7 @@ local function ServerHop()
     end
 
     if #x > 0 then
-        queueonteleport([[loadstring(game:HttpGet("ССЫЛКА_НА_ТВОЙ_СКРИПТ"))()]])
+        queueonteleport([[loadstring(game:HttpGet("https://raw.githubusercontent.com/Zeru-chan/mylululscripts/refs/heads/main/sob.lua"))()]])
         
         Teleport_Service:TeleportToPlaceInstance(game.PlaceId, x[math.random(1, #x)])
     end
